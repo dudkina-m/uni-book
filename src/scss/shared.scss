@@ -2,6 +2,7 @@
 
 body {
   background: #fff;
+  color: #0e1116;
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
@@ -11,34 +12,30 @@ body {
 }
 
 .content {
+  display: flex;
   flex-grow: 1;
+  height: calc(100vh - 150px);
   width: 100%;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  min-width: 768px;
+  padding: 0 15px;
   width: 100%;
 }
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px -15px 0;
+#result {
+  border: 1px solid #5b2333;
+  color: #5b2333;
+  padding: 10px 30px;
+  font-size: 16px;
+  transition: all .3s ease;
+  background-color: #fff;
 
-  &__item {
-    padding: 0 15px 30px 15px;
-    width: 50%;
-
-    &_4 {
-      padding: 0 15px 30px 15px;
-      width: 25%;
-    }
+  &:hover {
+    background-color: #5b2333;
+    color: #fff;
   }
 }
-
-.content {
-  &__flex-start {
-    justify-content: flex-start;
-  }
-}

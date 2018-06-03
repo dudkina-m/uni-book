@@ -1,6 +1,11 @@
 extends root/layout
 
-block container
-    .container
-        p hello world
-        //include include/footer
+block content
+    include include/header
+    main.content
+        include include/aside
+        section.main
+            iframe#main-content(src="common.html")
+    include include/footer
+
+

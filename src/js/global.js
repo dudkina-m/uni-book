@@ -1,113 +1,40 @@
 $(function () {
-  modalDisplay();
+  iframeContentChange();
+  calcResults();
 });
 
-function dropdownShow() {
-    $(document).ready(function () {
-        $('.dropdown').each(function () {
-            var $dropdown = $(this);
-
-            $('.dropdown__selected', $dropdown).click(function (e) {
-                e.preventDefault();
-                $div = $(".dropdown__list", $dropdown);
-                $div.toggle();
-                $(".dropdown__list").not($div).hide();
-                $('.dropdown__item', $dropdown).click(function () {
-                    $(".dropdown__list").not($div).hide();
-                    $('.dropdown__input', $dropdown).val($(this).text());
-                });
-                return false;
-            });
-        });
-        $('html').click(function () {
-            $(".dropdown__list").hide();
-        });
-    });
-}
-
-function footerToTopAction() {
-    $(document).ready(function () {
-        $('.footer__to-top').click(function () {
-            $('html, body').animate({scrollTop: '0px'}, 300);
-        });
-    });
-}
-
-function tabsLogic() {
-    $('.case__content').eq(1).hide();
-
-    $('.case__wrapper').each(function () {
-
-        $(this).find('.case__tab').click(function () {
-
-            var index = $(this).index();
-
-            $('.case__tab').removeClass('active');
-            $(this).addClass('active');
-
-            $('.case__content').hide();
-            $('.case__content').eq(index).show();
-        });
-    });
-}
-
-function paginationLogic() {
-    $('.pagination__page').each(function () {
-        $(this).click(function () {
-            $('.pagination__page').removeClass('active');
-            $(this).addClass('active');
-        })
-    });
-
-    $('.pagination__next').click(function () {
-        var current = 0;
-        $('.pagination__page').each(function (e) {
-            if ($(this).hasClass('active')) {
-                current = e;
-            }
-        });
-
-        if (current !== $('.pagination__page').length - 1) {
-            $('.pagination__page').removeClass('active');
-            $('.pagination__page').eq(current + 1).addClass('active');
-        } else $('.pagination__next').attr('disabled');
-    })
-
-    $('.pagination__prev').click(function () {
-        var current = 0;
-        $('.pagination__page').each(function (e) {
-            if ($(this).hasClass('active')) {
-                current = e;
-            }
-        });
-
-        if (current !== 0) {
-            $('.pagination__page').removeClass('active');
-            $('.pagination__page').eq(current - 1).addClass('active');
-        } else $('.pagination__prev').attr('disabled');
-    })
-}
-
-function modalDisplay() {
-
-    $('[data-popup]').each(function () {
-
+function iframeContentChange() {
+    $('[data-iframe]').each(function () {
         $(this).click(function (e) {
             e.preventDefault();
-            var id = $(this).attr('data-popup');
-            $('.popup').hide();
-            $('#' + id).show();
-            $('.popup__container').fadeIn(300);
+            var src = $(this).attr('data-iframe');
+            $('#main-content').attr("src", src);
+            $('.aside__item.active').each(function () {
+                $(this).removeClass("active")
+            });
+            $(this).addClass("active");
         })
-    });
+    })
+}
 
-    $('.popup__close').click(function () {
-        $('.popup__container').fadeOut(300);
-    });
+var array = [
+                3,2,3,1,1,2,3,4,4,1,2,1,4,2,4,
+                4,3,1,4,3,3,3,1,2,3,2,2,2,1,1,
+                1,2,3,3,2,1,4,3,2,2,1,3,2,4,1,
+                2,1,4,1,4,3,3,2,3,1,1,3,1,1,4,
+                2,1,3,2,3,3,1,2,4,1,4,2,3,2,1
+            ];
 
-    $('.popup__container').click(function (e) {
-        if (!$(e.target).closest('.popup').length) {
-            $('.popup__container').fadeOut();
-        }
-    });
+function calcResults() {
+    $('#result').click(function () {
+        let result = 0;
+        $('.test__item input[type=radio]:checked').each(function () {
+            const id = ($(this).attr("id"));
+            const obj = id.split('a');
+            console.log(obj);
+            if (+obj[1] === array[+obj[0] - 1])
+                result++;
+        })
+        alert(`Ваш результат ${result} из ${array.length}`);
+    })
 }

@@ -1,0 +1,19 @@
+.header {
+  align-items: center;
+  display: flex;
+  padding: 15px 0;
+
+  &__logo {
+    margin-right: 30px;
+    img {
+      width: 60px;
+    }
+  }
+
+  &__title {
+    color: #5b2333;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

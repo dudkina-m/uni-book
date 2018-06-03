@@ -1,4 +1,5 @@
 const gulp = require('gulp'),
+    data = require('gulp-data'),
     $ = require('gulp-load-plugins')(),
     browserSync = require('browser-sync').create(),
 
@@ -13,6 +14,8 @@ const gulp = require('gulp'),
     buildDirectory = 'dist/',
     nodeModulesDirectory = 'node_modules/';
 
+var fs = require('fs');
+var json = JSON.parse(fs.readFileSync('./src/tests/tests.json'));
 
 const getPluginsPaths = (type) => {
     const pluginNames = Object.keys(plugins[type]);
@@ -23,6 +26,9 @@ const getPluginsPaths = (type) => {
 
 gulp.task('build-pug', () => {
     return gulp.src(`${sourceDirectory}pug/*.pug`)
+        .pipe(data( function(file) {
+            return json
+        } ))
         .pipe($.plumber())
         .pipe($.pug({ pretty: true }))
         .pipe(gulp.dest(buildDirectory));

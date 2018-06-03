@@ -1,0 +1,1885 @@
+{
+    "tests":
+    [
+        {
+            "index": 1,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<span>Стандартная</span>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<span>Общая</span>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<span>Оптимальная</span>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<span>Каноническая</span>",
+                    "valid": false
+                }
+            ],
+            "question": "1. Какой формы записи задачи линейного программирования НЕ существует?"
+        },
+        {
+            "index": 2,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q2a1.png' alt='q2a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q2a2.png' alt='q2a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q2a3.png' alt='q2a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<span>Нет правильного ответа</span>",
+                    "valid": false
+                }
+            ],
+            "question": "2. Какая из представленных задач является задачей линейного программирования в канонической форме?"
+        },
+        {
+            "index": 3,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Если он удовлетворяет всем ограничениям",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "Если на нем искомая целевая функция будет равна 0",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "Если на нем искомая целевая функция будет достигать max(min) значения",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<span>Если x<sub>1</sub>=0, x<sub>2</sub>=0, …, x<sub>n</sub>=0.</span>",
+                    "valid": false
+                }
+            ],
+            "question": "<span>3. В каком случае план X = (x<sub>1</sub>, x<sub>2</sub>, …, x<sub>n</sub>) называется оптимальным планом?</span>"
+        },
+        {
+            "index": 4,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "найти ее оптимальный план и оптимум",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "найти ее допустимый план и оптимум",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "найти ее допустимый план и f<sub>min</sub> при f(x)->max",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>4. Решить задачу линейного программирования – значит ...</span>"
+        },
+        {
+            "index": 5,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "многогранник решений",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "окрестность значений",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "окружность решений",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>5. Область допустимых решений задачи в графическом методе решения ЗЛП образует:</span>"
+        },
+        {
+            "index": 6,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "A(10;20)",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "B(0;0)",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "C(20;10)",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "D(-2;-1)",
+                    "valid": false
+                }
+            ],
+            "question": "<span>6. Какая точка из предложенных будет принадлежать линии уровня уравнения 10x<sub>1</sub>+20x<sub>2</sub>=α, при α=0?</span>"
+        },
+        {
+            "index": 7,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "A",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "B",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "C",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "D",
+                    "valid": false
+                }
+            ],
+            "question": "<span>7. В какой точке будет достигаться максимум целевой функции f(x)=x<sub>1</sub>-x<sub>2</sub> при заданных граничных условиях на графике?</span><img src='img/tests/q7.png' width=250 alt='q7'>"
+        },
+        {
+            "index": 8,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "A(0;0) и B(1;1)",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "A(0;0) и C(-1;-1)",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "A(0;0) и D(-1;1)",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "A(0;0) и E(1;-1)",
+                    "valid": true
+                }
+            ],
+            "question": "<span>8. Вектору-градиенту на графике в вопросе 7 будут принадлежать следующие точки:</span>"
+        },
+        {
+            "index": 9,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "A",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "B и C",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "B",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет решения",
+                    "valid": true
+                }
+            ],
+            "question": "<span>9. Максимум целевой функции f(x)=2x<sub>1</sub>+2x<sub>2</sub> будет достигаться в точке:</span><img src='img/tests/q9.png' width=250 alt='q9'>"
+        },
+        {
+            "index": 10,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "A(1;1) и B(2;2)",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "A(0;0) и B(0;1)",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "A(1;1) и B(0;1)",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "A(-1;-1) и B(0;1)",
+                    "valid": false
+                }
+            ],
+            "question": "<span>10. Вектору-градиенту на графике в вопросе 9 будут принадлежать точки:</span>"
+        },
+        {
+            "index": 11,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q11a1.png' alt='q11a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q11a2.png' alt='q11a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q11a3.png' alt='q11a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q11a4.png' alt='q11a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "<span>11. Укажите, какая область допустимых значений построена на графике:</span><img src='img/tests/q11.png' width=250 alt='q11'>"
+        },
+        {
+            "index": 12,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                }
+            ],
+            "question": "<span>12. Является ли точка A(2.5;2.5) точкой оптимума целевой функции f(x)=2x<sub>1</sub>+x<sub>2</sub> при f(x)->max:</span>"
+        },
+        {
+            "index": 13,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "ACDF",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "ODF",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "ABEF",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "BCDE",
+                    "valid": true
+                }
+            ],
+            "question": "<span>13. Область допустимых решений целевой функции f(x)=10x<sub>1</sub>+x<sub>2</sub>->max при ограничениях {x<sub>1</sub>+x<sub>2</sub>≥3, x<sub>1</sub>+x<sub>2</sub>≤7, x<sub>2</sub>≥2, x<sub>1</sub>,<sub>2</sub>≥0} есть многоугольник:</span><img src='img/tests/q13.png' width=250 alt='q13'>"
+        },
+        {
+            "index": 14,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "D(0;7)",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "E(5;2)",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "F(7;0)",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет решения",
+                    "valid": false
+                }
+            ],
+            "question": "<span>14. Точкой оптимума в вопросе 13 будет являться точка:</span>"
+        },
+        {
+            "index": 15,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "(0;1)",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "(1;0)",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "(0;10)",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "(10;0)",
+                    "valid": true
+                }
+            ],
+            "question": "<span>15. Вектору-градиенту в вопросе 13 будет принадлежать точка:</span>"
+        },
+        {
+            "index": 16,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "транспортная задача",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "задача о назначениях",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "матричные игры",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "все перечисленное",
+                    "valid": true
+                }
+            ],
+            "question": "<span>16. Для решения какой задачи можно применить симплекс-метод?</span>"
+        },
+        {
+            "index": 17,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "нахождение опорного плана",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "приведение задачи к каноническому виду",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "нахождение седловой точки",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "вычисление оценок разложений векторов",
+                    "valid": false
+                }
+            ],
+            "question": "<span>17. Что не входит в алгоритм решения задачи симплекс-методом</span>"
+        },
+        {
+            "index": 18,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "переменные x<sub>1</sub>, x<sub>2</sub>, …, x<sub>m</sub> входящие с единичными коэффициентами только в одно уравнение системы, а в остальные – с нулевыми",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "переменные x<sub>1</sub>, x<sub>2</sub>, …, x<sub>m</sub> входящие с нулевыми коэффициентами только в одно уравнение системы, а в остальные – с единичными",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "переменные x<sub>1</sub>, x<sub>2</sub>, …, x<sub>m</sub> входящие с во все уравнения системы",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>18. Какие переменные называются базисными?</span>"
+        },
+        {
+            "index": 19,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "(0, 500, 0, 350)",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "(500, 0, 350, 0)",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "(500, 350)",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "(0, 0, 500, 350)",
+                    "valid": true
+                }
+            ],
+            "question": "<span>19. Опорный план составлен верно для задачи, исходные данные которой приведены в таблице:</span><img src='img/tests/q19.png' width=250 alt='q19'>"
+        },
+        {
+            "index": 20,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "f(X) = (500x<sub>1</sub> + 350x<sub>2</sub>) → max",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "f(X) = (500x<sub>1</sub> + 350x<sub>2</sub>) → min",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "f(X) = (2x<sub>1</sub> + 3x<sub>2</sub>) → max",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "f(X) = (2x<sub>1</sub> + 3x<sub>2</sub>) → min",
+                    "valid": false
+                }
+            ],
+            "question": "<span>20. Целевая функция составлена верно для задачи из вопроса 19:</span>"
+        },
+        {
+            "index": 21,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q21a1.png' alt='q21a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q21a2.png' alt='q21a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q21a3.png' alt='q21a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q21a4.png' alt='q21a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "21. Ограничения для задачи из вопроса 19 составлены верно:"
+        },
+        {
+            "index": 22,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q22a1.png' alt='q22a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q22a2.png' alt='q22a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q22a3.png' alt='q22a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q22a4.png' alt='q22a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "22. При приведении к каноническому виду систему из вопроса 21, получим систему:"
+        },
+        {
+            "index": 23,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q23a1.png' alt='q23a1'>",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q23a2.png' alt='q23a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q23a3.png' alt='q23a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q23a4.png' alt='q23a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "23. Для задачи из вопроса 19 правильно составлена симплекс-таблица:"
+        },
+        {
+            "index": 24,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "x<sub>1</sub> = 80, x<sub>2</sub> = 75",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "x<sub>1</sub> = 75, x<sub>2</sub> = 75",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "x<sub>1</sub> = 75, x<sub>2</sub> = 80",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "x<sub>1</sub> = 80, x<sub>2</sub> = 80",
+                    "valid": false
+                }
+            ],
+            "question": "<span>24. Оптимальное решение задачи из вопроса 19 есть x<sub>1</sub> и x<sub>2</sub> равные:</span>"
+        },
+        {
+            "index": 25,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "350",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "400",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "450",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "500",
+                    "valid": false
+                }
+            ],
+            "question": "<span>25. Максимальная прибыль в задаче из вопроса 19 будет равна:</span>"
+        },
+        {
+            "index": 26,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Для решения задачи линейного программирования систему неравенств необходимо привести к каноническому виду",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "Симплекс-метод позволяет решить задачи только на максимизацию.",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "При решении задач симплекс-методом применяются симплексные таблицы",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "Оптимальным признается опорный план, если все элементы строки оценок ≥0",
+                    "valid": false
+                }
+            ],
+            "question": "<span>26. Выберите неверное утверждение:</span>"
+        },
+        {
+            "index": 27,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Оптимальное решение ЗЛП может содержать отрицательные числа",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "Оптимальное решение ЗЛП может не существовать для конкретной задачи",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "Оптимальное решение ЗЛП не может содержать в себе нули",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет верного утверждения",
+                    "valid": false
+                }
+            ],
+            "question": "<span>27. Выберите верное утверждение:</span>"
+        },
+        {
+            "index": 28,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "мало данных для ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>28. Является ли опорный план оптимальным при оценках векторов Δ = {0; -2; 7; 1} и f(x)→max?</span>"
+        },
+        {
+            "index": 29,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "зависит от типа задачи",
+                    "valid": false
+                }
+            ],
+            "question": "<span>29. Любую ли задачу линейного программирования можно решить симплекс-методом?</span>"
+        },
+        {
+            "index": 30,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "зависит от типа задачи",
+                    "valid": false
+                }
+            ],
+            "question": "<span>30. Можно ли с помощью симплекс-метода найти минимум целевой функции?</span>"
+        },
+        {
+            "index": 31,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "минимизация расходов доставки товара от поставщиков к потребителям",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "расчет времени доставки товара по точкам",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "расчет суммарной стоимости товаров",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>31. К транспортной задаче можно отнести задачу: </span>"
+        },
+        {
+            "index": 32,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "если суммарный объем предложения меньше суммарного объема спроса на груз",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "если суммарный объем спроса равен суммарному объему предложения груза",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "если суммарный объем предложения больше суммарного объема спроса на груз",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "если суммарный объем спроса меньше суммарного объема предложения груза",
+                    "valid": false
+                }
+            ],
+            "question": "<span>32. В каком случае транспортная задача называется закрытой?</span>"
+        },
+        {
+            "index": 33,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q33a1.png' alt='q33a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q33a2.png' alt='q33a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q33a3.png' alt='q33a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q33a4.png' alt='q33a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "33. Укажите верную целевую функцию и матрицу перевозок:"
+        },
+        {
+            "index": 34,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q34a1.png' alt='q34a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q34a2.png' alt='q34a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q34a3.png' alt='q34a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q34a4.png' alt='q34a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "<span>34. Выберите верно составленную математическую модель транспортной задачи, исходные данные которой представлены в таблице:</span><img src='img/tests/q34.png' width=200 alt='q34'"
+        },
+        {
+            "index": 35,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q35a1.png' alt='q35a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q35a2.png' alt='q35a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q35a3.png' alt='q35a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q35a4.png' alt='q35a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "35. Какая из следующих задач, исходные данные которых представлены в таблицах, является открытой?"
+        },
+        {
+            "index": 36,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "не хватает данных для ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>36. Необходимо развести из первого, второго и третьего пунктов производства 17, 12 и 20 ящиков соответственно в два магазина, причем в первый необходимо доставить 18 ящиков, а во второй - 30. Стоимость доставки грузов во все магазины одинакова и равна 2. Является ли данная задача закрытой транспортной задачей?</span>"
+        },
+        {
+            "index": 37,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q37a1.png' alt='q37a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q37a2.png' alt='q37a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q37a3.png' alt='q37a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q37a4.png' alt='q37a4'>",
+                    "valid": true
+                }
+            ],
+            "question": "<span>37. Целевая функция составлена правильно для задачи, исходные данные которой представлены в таблице:</span><img src='img/tests/q37.png' width=200 alt='q37'>"
+        },
+        {
+            "index": 38,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q38a1.png' alt='q38a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q38a2.png' alt='q38a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q38a3.png' alt='q38a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q38a4.png' alt='q38a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "<span>38. К возможным решениям транспортной задачи, исходные данные которой представлены в таблице, можно отнести решение:</span><img src='img/tests/q38.png' width=200 alt='q38'"
+        },
+        {
+            "index": 39,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q39a1.png' alt='q39a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q39a2.png' alt='q39a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q39a3.png' alt='q39a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q39a4.png' alt='q39a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "39. Целевая функция для задачи из вопроса 38 составлена верно:"
+        },
+        {
+            "index": 40,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q40a1.png' alt='q40a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q40a2.png' alt='q40a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q40a3.png' alt='q40a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "40. Система ограничений для задачи из вопроса 38 составлена верно:"
+        },
+        {
+            "index": 41,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "не хватает данных",
+                    "valid": false
+                }
+            ],
+            "question": "<span>41. В кондитерский концерн входит две фабрики и три магазина. Фабрики производят 300 и 145 единиц продукции в неделю. Магазинам необходимо 100, 150, 185 единиц продукции. Стоимость доставки единицы продукции с первой фабрики в магазины равна 2, а со второй фабрики – 1. Является ли данная задача открытой транспортной задачей?</span>"
+        },
+        {
+            "index": 42,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q42a1.png' alt='q42a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q42a2.png' alt='q42a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q42a3.png' alt='q42a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q42a4.png' alt='q42a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "42. Верно составлена целевая функция транспортной задачи из вопроса 41:"
+        },
+        {
+            "index": 43,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q43a1.png' alt='q43a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q43a2.png' alt='q43a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q43a3.png' alt='q43a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q43a4.png' alt='q43a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "43. Верно составлена система ограничений для транспортной задачи из вопроса 41:"
+        },
+        {
+            "index": 44,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q44a1.png' alt='q44a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q44a2.png' alt='q44a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q44a3.png' alt='q44a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "все перечисленное",
+                    "valid": true
+                }
+            ],
+            "question": "44. К возможным решениям задачи из вопроса 41 можно отнести решение:"
+        },
+        {
+            "index": 45,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                }
+            ],
+            "question": "<span>45. Всегда ли существует решение транспортной задачи?</span>"
+        },
+        {
+            "index": 46,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "задача динамического программирования",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "транспортная задача",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "задаче нелинейного программирования",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>46. Частным случаем какой задачи является задача о назначениях?</span>"
+        },
+        {
+            "index": 47,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q47a1.png' alt='q47a1'>",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q47a2.png' alt='q47a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q47a3.png' alt='q47a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q47a4.png' alt='q47a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "47. Какая из перечисленных математических моделей является моделью задачи о назначениях?"
+        },
+        {
+            "index": 48,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q48a1.png' alt='q48a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q48a2.png' alt='q48a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q48a3.png' alt='q48a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q48a4.png' alt='q48a4'>",
+                    "valid": true
+                }
+            ],
+            "question": "<span>48. В результате эквивалентных преобразований исходная матрица назначений приобретет вид:</span><img src='img/tests/q48.png' width=150 alt='q48'>"
+        },
+        {
+            "index": 49,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "не хватает данных для ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>49. В компанию, занимающуюся курьерской доставкой, поступило три заказа на доставку товара в Гомель, Брест и Витебск. В компании есть три курьера с тремя разными моделями автомобилей. Логисту необходимо распределить трех курьеров по трем направлениям так, чтобы общее время доставки было минимальным. Является ли эта задача задачей о назначениях?</span>"
+        },
+        {
+            "index": 50,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q50a1.png' alt='q50a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q50a2.png' alt='q50a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q50a3.png' alt='q50a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q50a4.png' alt='q50a4'>",
+                    "valid": true
+                }
+            ],
+            "question": "<span>50. Для задачи о назначениях, исходные данные которой приведены в таблице, назначения проведены верно:</span><img src='img/tests/q50.png' width=150 alt='q50'>"
+        },
+        {
+            "index": 51,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "минимальные элементы в строках",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "минимальные элементы в столбцах",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "седловую точку",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "оптимальное решение",
+                    "valid": false
+                }
+            ],
+            "question": "<span>51. Что НЕ требуется находить при решении задачи о назначениях венгерским методом?</span>"
+        },
+        {
+            "index": 52,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q52a1.png' alt='q52a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q52a2.png' alt='q52a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q52a3.png' alt='q52a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "нет верного решения",
+                    "valid": false
+                }
+            ],
+            "question": "<span>52. Правильной последовательностью решения задачи о назначениях, исходные данные которой представлены в таблице, есть последовательность:</span><img src='img/tests/q52.png' width=150 alt='q52'>"
+        },
+        {
+            "index": 53,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q53a1.png' alt='q53a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q53a2.png' alt='q53a2'>",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q53a3.png' alt='q53a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q53a4.png' alt='q53a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "<span>53. Какая из матриц будет являться решением задачи о назначениях, исходные данные которой представленный в таблице?</span><img src='img/tests/q53.png' width=150 alt='q53'>"
+        },
+        {
+            "index": 54,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q54a1.png' alt='q54a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q54a2.png' alt='q54a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q54a3.png' alt='q54a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>54. Целевая функция для задачи о назначениях, исходные данные которой представлены в таблице, составлена верно:</span><img src='img/tests/q54.png' width=150 alt='q54'>"
+        },
+        {
+            "index": 55,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q55a1.png' alt='q55a1'>",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q55a2.png' alt='q55a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q55a3.png' alt='q55a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q55a4.png' alt='q55a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "55. Уравнения ограничений для задачи из вопроса 54 составлены верно: "
+        },
+        {
+            "index": 56,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "мало данных для ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>56. В строительную корпорацию поступил заказ на строительство трех жилых домов с тремя, шестью и девятью этажами. В корпорации есть три бригады, состоящих только из новичков, наполовину из новичков и опытных строителей, и только из опытных строителей. Количество месяцев, за которое бригады строят дома приведены в таблице. Необходимо распределить бригады по объектам так, чтобы дома были построены как можно быстрее. Является ли эта задача задачей о назначениях?</span><img src='img/tests/q56.png' width=250 alt='q56'>"
+        },
+        {
+            "index": 57,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q57a1.png' alt='q57a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q57a2.png' alt='q57a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q57a3.png' alt='q57a3'>",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "57. Целевая функция для задачи из вопроса 56 составлена верно:"
+        },
+        {
+            "index": 58,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q58a1.png' alt='q58a1'>",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q58a2.png' alt='q58a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q58a3.png' alt='q58a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет решения",
+                    "valid": false
+                }
+            ],
+            "question": "58. Последовательность решения задачи из вопроса 56 венгерским методом верна:"
+        },
+        {
+            "index": 59,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q59a1.png' alt='q59a1'>",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q59a2.png' alt='q59a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q59a3.png' alt='q59a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q59a4.png' alt='q59a4'>",
+                    "valid": false
+                }
+            ],
+            "question": "59. Система ограничений составлена верно для задачи из вопроса 56: "
+        },
+        {
+            "index": 60,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "<img src='img/tests/q60a1.png' alt='q60a1'>",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "<img src='img/tests/q60a2.png' alt='q60a2'>",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "<img src='img/tests/q60a3.png' alt='q60a3'>",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "<img src='img/tests/q60a4.png' alt='q60a4'>",
+                    "valid": true
+                }
+            ],
+            "question": "60. Одним из решений задачи из вопроса 56 есть решение:"
+        },
+        {
+            "index": 61,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Если выигрыш одного игрока равен выигрышу другого",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "Если выигрыш одного игрока равен проигрышу другого игрока",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "Если в результате игры оказывается ничья",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "нет правильного ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>61. Какая игра называется игрой с нулевой суммой?</span>"
+        },
+        {
+            "index": 62,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Гарантированный выигрыш, который может обеспечить себе игрок А, т.е. max<sub>i</sub>(min<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "Гарантированный проигрыш, который может обеспечить себе игрок А, т.е. max<sub>i</sub>(min<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "Гарантированный проигрыш, который может обеспечить себе игрок B, т.е. min<sub>i</sub>(max<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "Гарантированный выигрыш, который может обеспечить себе игрок B, т.е. min<sub>i</sub>(max<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": false
+                }
+            ],
+            "question": "<span>62. Нижняя цена игры – это…</span>"
+        },
+        {
+            "index": 63,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Гарантированный выигрыш, который может обеспечить себе игрок А, т.е. max<sub>i</sub>(min<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "Гарантированный проигрыш, который может обеспечить себе игрок А, т.е. max<sub>i</sub>(min<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "Гарантированный проигрыш, который может обеспечить себе игрок B, т.е. min<sub>i</sub>(max<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "Гарантированный выигрыш, который может обеспечить себе игрок B, т.е. min<sub>i</sub>(max<sub>j</sub>(a<sub>i</sub><sub>j</sub>))",
+                    "valid": false
+                }
+            ],
+            "question": "<span>63. Верхняя цена игры – это…</span>"
+        },
+        {
+            "index": 64,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "Игра, в которой нижняя цена игры меньше верхней цены",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "Игра, в которой нижняя цена игры равна верхней цене",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "Игра, в которой нижняя цена игры больше верхней цены",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "Игра, в которой нижняя цена игры равна нулю.",
+                    "valid": false
+                }
+            ],
+            "question": "<span>64. Какая игра называется игрой с седловой точкой?</span>"
+        },
+        {
+            "index": 65,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "если седловая точка равна 0",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "если седловая точка существует",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "если седловая точка не существует",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "если седловая точка не единична",
+                    "valid": false
+                }
+            ],
+            "question": "<span>65. В каком случае матричная игра решается в смешанных стратегиях?</span>"
+        },
+        {
+            "index": 66,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "седловую точку",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "минимальные элементы в строках матрицы",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "нулевые элементы в столбцах",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "верхнюю цену игры",
+                    "valid": false
+                }
+            ],
+            "question": "<span>66. Что не следует находить, решая матричную игру по принципу минимакса?</span>"
+        },
+        {
+            "index": 67,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "да, но не более 3",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "да, если только они нулевые",
+                    "valid": false
+                }
+            ],
+            "question": "<span>67. Может ли платежная матрица иметь более одной седловой точки?</span>"
+        },
+        {
+            "index": 68,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "2",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "3",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "5",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "7",
+                    "valid": false
+                }
+            ],
+            "question": "<span>68. Чему равна нижняя цена игры, платежная матрица которой представлена ниже:</span><img src='img/tests/q68.png' width=100 alt='q68'>"
+        },
+        {
+            "index": 69,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "2",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "5",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "8",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "седловой точки нет",
+                    "valid": true
+                }
+            ],
+            "question": "69. Чему равно значение седловой точки игры из вопроса 68?"
+        },
+        {
+            "index": 70,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "мало данных для ответа",
+                    "valid": false
+                }
+            ],
+            "question": "<span>70. Можно ли решить матричную игру, платежная матрица которой представлена ниже, в чистых стратегиях?</span><img src='img/tests/q70.png' width=100 alt='q70'>"
+        },
+        {
+            "index": 71,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "0",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "2",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "3",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "5",
+                    "valid": true
+                }
+            ],
+            "question": "71. Чему равна нижняя цена игры из вопроса 70?"
+        },
+        {
+            "index": 72,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "3",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "5",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "6",
+                    "valid": false
+                },
+                {
+                    "index": 4,
+                    "markup": "9",
+                    "valid": false
+                }
+            ],
+            "question": "72. Чему равен минимакс в задаче из вопроса 70?"
+        },
+        {
+            "index": 73,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "2",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "3",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "5",
+                    "valid": true
+                },
+                {
+                    "index": 4,
+                    "markup": "9",
+                    "valid": false
+                }
+            ],
+            "question": "73. Чему равно значение седловой точки игры из вопроса 70?"
+        },
+        {
+            "index": 74,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": false
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": true
+                },
+                {
+                    "index": 3,
+                    "markup": "мало данных для ответа",
+                    "valid": false
+                }
+            ],
+            "question": "74. Необходимо ли при решении матричной игры в смешанной стратегии находить седловую точку?"
+        },
+        {
+            "index": 75,
+            "answers": [
+                {
+                    "index": 1,
+                    "markup": "да",
+                    "valid": true
+                },
+                {
+                    "index": 2,
+                    "markup": "нет",
+                    "valid": false
+                },
+                {
+                    "index": 3,
+                    "markup": "зависит от задачи",
+                    "valid": false
+                }
+            ],
+            "question": "75. Всякая ли матричная игра с нулевой суммой имеет решение в смешанных стратегиях?"
+        }
+    ]
+}
