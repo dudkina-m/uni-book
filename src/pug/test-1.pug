@@ -1,0 +1,14 @@
+extends root/layout
+
+block content
+    p.test__title Тестовые задания
+        ul.test__list
+            - for (var i = 0; i < 15; i++) {
+                li.test__item(id=`q${tests[i].index}`)
+                    .test__question !{tests[i].question}
+                    each item in tests[i].answers
+                        .test__answer
+                            input(type="radio" id=`${tests[i].index}a${item.index}` name=`nq${tests[i].index}`)
+                            label(for=`${tests[i].index}a${item.index}`) !{item.markup}
+            - }
+        button#result Завершить тест

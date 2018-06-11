@@ -5,26 +5,42 @@
     display: flex;
     flex-direction: column;
     margin-right: 30px;
-    width: 300px;
+    width: 500px;
   }
 
-  &__menu {
+  &-submenu {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      @include transition();
+
+      color: #0e1116;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 5px;
+      position: relative;
+      text-transform: initial;
+
+      &:hover {
+        opacity: .7;
+      }
+
+      &.active {
+        color: #0563c1;
+        font-size: 16px;
+      }
+    }
   }
 
   &__item {
     @include transition();
 
+    color: #5b2333;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
     padding: 10px;
-
-    &.active {
-      color: #5b2333;
-      font-weight: 700;
-    }
-
-    &:hover {
-      opacity: .7;
-    }
+    text-transform: uppercase;
   }
 }

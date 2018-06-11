@@ -1,7 +1,19 @@
 $(function () {
   iframeContentChange();
   calcResults();
+  toggleMenu();
 });
+
+function toggleMenu() {
+    $('.aside-submenu__item').each(function () {
+        $(this).click(function (e) {
+            e.stopPropagation();
+            if ($(this).children()) {
+                $(this).children().first().toggle();
+            }
+        })
+    })
+}
 
 function iframeContentChange() {
     $('[data-iframe]').each(function () {
@@ -9,7 +21,7 @@ function iframeContentChange() {
             e.preventDefault();
             var src = $(this).attr('data-iframe');
             $('#main-content').attr("src", src);
-            $('.aside__item.active').each(function () {
+            $('.aside-submenu__item.active').each(function () {
                 $(this).removeClass("active")
             });
             $(this).addClass("active");
@@ -35,6 +47,6 @@ function calcResults() {
             if (+obj[1] === array[+obj[0] - 1])
                 result++;
         })
-        alert(`Ваш результат ${result} из ${array.length}`);
+        alert(`Ваш результат ${result} из 15`);
     })
 }

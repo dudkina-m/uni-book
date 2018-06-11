@@ -1,0 +1,14 @@
+@import '../global';
+
+.submenu {
+  display: none;
+
+  &__item {
+    font-weight: 400;
+    padding: 3px;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
