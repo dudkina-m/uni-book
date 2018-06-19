@@ -3,6 +3,71 @@ extends root/layout
 block content
     main.content
         .common
-            p.common__text Данная информационно-обучающая система содержит методический и практический комплекс по моделям линейного программирования.
-            p.common__text Примеры и задания для самостоятельной работы помогут изучить и закрепить изученный теоретический материал.
-            p.common__text Система рассчитана на студентов и начинающих изучение курса программистов.
+            aside.aside__container
+                nav.nav-menu
+                    ul
+                        li.aside__item Теоретический раздел
+                            ul.aside-submenu
+                                li.aside-submenu__item
+                                    a(href="pages/theory/chapter-1/chapter-1.html") Прямая задача ЛП
+                                li.aside-submenu__item
+                                    a(href="pages/theory/chapter-2/chapter-2.html") Транспортная задача
+                                li.aside-submenu__item
+                                    a(href="pages/theory/chapter-3/chapter-3.html") Задача о назначениях
+                                li.aside-submenu__item
+                                    a(href="pages/theory/chapter-4/chapter-4.html") Игровая модель
+                        li.aside__item Практический раздел
+                            ul.aside-submenu
+                                li.aside-submenu__item Примеры
+                                    ul.submenu
+                                        li.submenu__item
+                                            a(href="pages/examples/graphics/graphics.html") Графический метод
+                                        li.submenu__item
+                                            a(href="pages/examples/simplex/simplex.html") Симплекс метод
+                                        li.submenu__item
+                                            a(href="pages/examples/excel/excel.html") Решение в среде Excel
+                                        li.submenu__item
+                                            a(href="pages/examples/vengere.html") Венгерский метод
+                                        li.submenu__item
+                                            a(href="pages/examples/search/search.html") Поиск решения
+                                        li.submenu__item
+                                            a(href="pages/examples/strategies/strategies.html") Чистые и смешанные стратегии
+                                li.aside-submenu__item Задания к лабораторным работам
+                                    ul.submenu
+                                        li.submenu__item
+                                            a(href="pages/labs/lab1.pdf") Лабораторная работа №1
+                                        li.submenu__item
+                                            a(href="pages/labs/lab2.pdf") Лабораторная работа №2
+                                        li.submenu__item
+                                            a(href="pages/labs/lab3.pdf") Лабораторная работа №3
+                                        li.submenu__item
+                                            a(href="pages/labs/lab4.pdf") Лабораторная работа №4
+                                        li.submenu__item
+                                            a(href="pages/labs/lab5.pdf") Лабораторная работа №5
+                                        li.submenu__item
+                                            a(href="pages/labs/lab6.pdf") Лабораторная работа №6
+                                        li.submenu__item
+                                            a(href="pages/labs/lab7.pdf") Лабораторная работа №7
+                                        li.submenu__item
+                                            a(href="pages/labs/lab8.pdf") Лабораторная работа №8
+                        li.aside__item Контроль знаний
+                            ul.aside-submenu
+                                li.aside-submenu__item Тесты
+                                    ul.submenu
+                                        li.submenu__item
+                                            a(href="test-1.html") Тест "Линейное программирование"
+                                        li.submenu__item
+                                            a(href="test-2.html") Тест "Транспортная задача"
+                                        li.submenu__item
+                                            a(href="test-3.html") Тест "Задача о назначениях"
+                                        li.submenu__item
+                                            a(href="test-4.html") Тест "Игровая модель"
+                                        li.submenu__item
+                                            a(href="test-5.html") Тест "Симплекс метод"
+                                li.aside-submenu__item Вопросы
+                                    ul.submenu
+                                        li.submenu__item
+                                            a(href="pages/questions/games.html") Теория игр
+                                        li.submenu__item
+                                            a(href="pages/questions/discrete.html") Дискретное программирование
+
